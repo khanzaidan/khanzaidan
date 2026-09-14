@@ -49,8 +49,9 @@ export default function About() {
           {/* Left */}
           <div>
             <p style={{ color: '#9ca3af', lineHeight: 1.8, marginBottom: '1.25rem', fontSize: '0.95rem' }}>
-              B.Tech ECE graduate from TIT Bhopal with 6+ months of hands-on embedded hardware design experience from my internship at{' '}
-              <span style={{ color: '#10B981', fontWeight: 600 }}>Walnut Medical</span> as an Embedded R&D Engineer — where I designed the complete hardware, from multi-sheet Altium schematics to PCB layout and Gerber hand-off, and wrote the STM32 firmware for a safety-critical closed-loop smart infusion pump, aligned with{' '}
+              B.Tech ECE graduate from TIT Bhopal, currently working as an Embedded Hardware Engineer & PCB Designer at{' '}
+              <span style={{ color: '#10B981', fontWeight: 600 }}>SB Components Ltd.</span>, with 8+ months of hands-on embedded hardware design experience — including my internship at{' '}
+              <span style={{ color: '#10B981', fontWeight: 600 }}>Walnut Medical</span> as an Embedded R&D Engineer, where I designed the complete hardware, from multi-sheet Altium schematics to PCB layout and Gerber hand-off, and wrote the STM32 firmware for a safety-critical closed-loop smart infusion pump, aligned with{' '}
               <span style={{ color: '#10B981', fontWeight: 600 }}>IEC 62304</span> medical device standards.
             </p>
             <p style={{ color: '#9ca3af', lineHeight: 1.8, marginBottom: '2rem', fontSize: '0.95rem' }}>
@@ -87,7 +88,7 @@ export default function About() {
                 {[
                   ['📍', 'Location', 'Bhopal, MP, India'],
                   ['🎓', 'Degree', 'B.Tech ECE — Graduated 2026'],
-                  ['🏢', 'Last Role', 'Walnut Medical (Intern)'],
+                  ['🏢', 'Current Role', 'SB Components Ltd.'],
                   ['📧', 'Email', 'khanzaidaan786@gmail.com'],
                 ].map(([icon, key, val]) => (
                   <div key={key}>
